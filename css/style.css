@@ -1,0 +1,456 @@
+/* ______________________GENERAL_______________________ */
+
+body{
+overflow-x:hidden;
+}
+
+.section-header{
+padding-top: 100px;
+font-family: "Open Sans",sans-serif;
+text-transform: uppercase;
+font-weight: 900;
+color: #ffac00;
+font-size: 3em;
+letter-spacing: 2px;
+text-decoration: none;
+padding-bottom: 70px;
+}
+
+button:focus 
+{
+	outline:0 !important;
+	background:#1e1e1e!important;
+}
+button:active{
+    background:#1e1e1e !important;
+}
+
+/* ______________________GENERAL END_______________________ */
+
+
+
+/* ______________________NAVBAR____________________________ */
+
+.navbar-default{
+	background-color: #4a3a69;
+	border-color: transparent;
+}
+
+.navbar-nav{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 1.25em;
+	margin: 30px 150px 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+
+.navbar-default .navbar-nav li a{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover,a:active{
+	color: #ffa71b !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #ffa71b !important;
+}
+
+
+/* ______________________NAVBAR END_______________________ */
+
+
+
+
+
+/* ______________________CARAOUSEL_______________________ */
+
+.cont_slider{
+   padding: 0 !important;
+   margin: 0 !important;
+   width: 100%;
+}
+
+.carousel-caption{
+	padding-bottom: 12em;
+}
+
+.carousel-caption h1{
+font-family: "Open Sans",sans-serif;
+text-transform: uppercase;
+font-weight: 900;
+color: #ffac00;
+font-size: 3em;
+letter-spacing: 2px;
+text-decoration: none;
+	
+}
+
+.carousel-caption h3{
+font-family: "Roboto",sans-serif;
+font-weight: 400;
+color: #fff;
+font-size: 1.8em;
+text-shadow:1px;
+padding-bottom: 20px;
+}
+
+.btn-slider{
+	width:230px;
+	height:60px;
+	border-radius: 0px;
+	background-color:#faaf40;
+	color:#fff;
+	font-family: 'Roboto',sans-serif;
+	font-size: 20px;
+	border: none;
+}
+
+.btn-slider:hover{
+	width:210px;
+	height:60px;
+	border-radius: 0px;
+	background-color:#ffac00;
+	color:#fff;
+	font-family: 'Roboto',sans-serif;
+	font-size: 20px;
+	border: none;
+}
+
+
+/* ______________________CARAOUSEL END_______________________ */
+
+
+/* ______________________SERVICES_______________________ */
+
+
+#services{
+background:
+ linear-gradient(
+ rgba(0, 0, 0, 0.6), 
+rgba(0, 0, 0, 0.6)
+ ),
+ url('../img/bg-services.jpg');
+ background-repeat: fill;
+ background-size: cover!important;
+ -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+
+ width:100%;
+padding-bottom: 70px;
+}
+
+#pop_exams{
+	padding-bottom: 70px;
+}
+
+
+#service_text{
+	padding-top: 30px;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #ffac00;
+	letter-spacing: 0.5px;
+}
+
+#service_cont{
+
+	font-family: 'Roboto',sans-serif;
+	font-size:16px;
+	color: #fff;
+	line-height: 25px;
+}
+
+
+/* ______________________SERVICES END_______________________ */
+
+
+
+/* _____________________EXAMS_______________________________ */
+
+#pop_exams{
+background:url('../img/bg-test.png');
+ background-repeat: fill;
+}
+
+.pop_maths{
+	background-color: #444;
+	padding: 1px 1px 1px 1px;
+}
+
+.pop_engg{
+	background-color: #7ac673;
+	padding: 1px 1px 1px 1px;
+}
+
+
+.pop_eng{
+	background-color: #f97352;
+	padding: 1px 1px 1px 1px;
+
+	
+}
+
+
+.pop_reason{
+	background-color: #faaf40;
+	padding: 1px 1px 1px 1px;
+}
+
+
+.pop_content{
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 500;
+	color: #000000;
+}
+
+
+.pop_eng_cont{
+	background-color: #fff;
+	padding-top: 20px;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 500;
+	color: #000000;
+}
+
+.pop_btn{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.pop_btn_eng{
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.nopadding {
+   padding: 3px;
+ 	padding-top: 20px;
+   margin: 0 !important;
+}
+
+.enpadding {
+   padding: 1px;
+   margin: 0 !important;
+}
+
+.btn-exam{
+	width:120px;
+	height: 40px;
+	border-radius: 0px;
+	border: none;
+}
+
+.more_exams{
+padding-top: 100px;
+}
+
+.btn-more-exam{
+	width:220px;
+	height: 40px;
+	border-radius: 0px;
+	border: none;
+}
+
+.eng{
+	-webkit-box-shadow:0 0 50px #b4b4b4; 
+-moz-box-shadow: 0 0 50px #b4b4b4; 
+box-shadow:0 0 50px #b4b4b4;
+border-radius: 0px;
+border: none;
+}
+
+
+.pop_exams_header{
+	font-family: 'Roboto',sans-serif;
+	font-weight: 900;
+	color: #fff;
+	font-size: 1.3em;
+}
+
+/* ______________________EXAMS END_______________________ */
+
+
+/* _____________________FOLLOW US_______________________ */
+
+.section-so-header{
+padding-top: 35px;
+font-family: "Open Sans",sans-serif;
+text-transform: uppercase;
+font-weight: 900;
+color: #ffac00;
+font-size: 2.5em;
+letter-spacing: 2px;
+text-decoration: none;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+
+#social{
+background-color: #ecf0f1;
+}
+
+.icons{
+padding-top: 30px;
+}
+
+.section-so-fb{
+	color:#fff;
+	border-color: none;
+	width:55px;
+	height:55px;
+	background-color: #3b5998;
+}
+
+.section-so-tw{
+	color:#fff;
+	border-color: none;
+	width:55px;
+	height:55px;
+	background-color: #00aced;
+}
+.section-so-in{
+	color:#fff;
+	border-color: none;
+	width:55px;
+	height:55px;
+	background-color: #517fa4;
+}
+.icon-fb{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+.icon-tw{
+	padding-top: 8px;
+	padding-left: 7px;
+}
+
+.icon-in{
+	padding-top: 8px;
+	padding-left: 9px;
+}
+
+/* ______________________FOLLOW US END_______________________ */
+
+
+/* _____________________CONTACT US_______________________ */
+
+#contact{
+background:
+ linear-gradient(
+ rgba(0, 0, 0, 0.2), 
+rgba(0, 0, 0, 0.2)
+ ),
+ url('../img/bg_contact.jpg')  50% 0 fixed;
+ background-repeat: fill;
+ background-size: cover;
+ width:100%;
+padding-bottom: 70px;
+}
+
+.name{
+padding-bottom: 
+}
+
+
+#full_name, #E_mail, #Phone{
+padding-top: 10px;
+height: 50px;
+background-color: #f7f9f9;
+font-family: 'Open Sans',sans-serif;
+color:#444;
+font-size:1em;
+border-radius: 0px ! important;
+border: none ! important;
+}
+
+#Message_field{
+padding-top: 10px;
+background-color: #f7f9f9;
+font-family: 'Open Sans',sans-serif;
+color:#444;
+font-size:1em;
+border-radius: 0px ! important;
+border: none ! important;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.name, .email, .phone, .message{
+	padding-bottom: 15px;
+}
+
+
+.btn-contact{
+	width:180px;
+	height:60px;
+	border-radius: 0px;
+	background-color:#faaf40;
+	color:#fff;
+	font-family: 'Roboto',sans-serif;
+	font-size: 20px;
+	border: none;
+}
+
+.btn-contact:hover{
+	width:180px;
+	height:60px;
+	border-radius: 0px;
+	background-color:#ffac00;
+	color:#fff;
+	font-family: 'Roboto',sans-serif;
+	font-size: 20px;
+	border: none;
+}
+
+textarea {
+border-radius: 0px ! important;
+border: none ! important;
+}
+
+/* ______________________CONTACT US END_______________________ */
+
+
+/* _____________________FOOTER_______________________ */
+
+#footer{
+	background-color: #2B213D;
+}
+
+.footer_logo{
+	padding-top: 50px;
+	padding-left: 60px;
+	padding-bottom: 40px;
+	
+}
+
+.f_cont{
+	padding-top: 60px;
+	padding-left: 60px;
+	font-family: 'Roboto',sans-serif;
+	font-size: 1.1em;
+	color:#9c9c9c;
+	text-align: left;
+}
+
+/* ______________________FOOTER END_______________________ */
+
+
+
+
+
+
+
+
+

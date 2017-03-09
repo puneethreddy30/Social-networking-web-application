@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductsXML>
+	<Products>
+		<productcode>swimminggear</productcode>
+		<category>Swimming</category>
+		<productname>NIKE SWIMMING GOGGLES</productname>
+		<rentalprice>2</rentalprice>
+		<description>Protect your eyes while in the pool wearing this chrome goggle</description>
+		<quantity>80</quantity>
+	</Products>
+	<Products>
+		<productcode>ttracquet</productcode>
+		<category>TableTennis</category>
+		<productname>Stiga Titan Table Tennis Paddle</productname>
+		<rentalprice>3</rentalprice>
+		<description>5-ply extra-light blade with Balsa Tech.Triumph inverted tournament rubber</description>
+		<quantity>100</quantity>
+	</Products>
+	<Products>
+		<productcode>tracquet</productcode>
+		<category>LawnTennis</category>
+		<productname>Wilson Fusion Tennis Racquet</productname>
+		<rentalprice>5</rentalprice>
+		<description>This racquet is an oversized recreational racquet perfect for a beginner. Grip size: 4 1/4</description>
+		<quantity>50</quantity>
+	</Products>
+	
+</ProductsXML>
